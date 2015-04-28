@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <template id="main">
+        <div>this is test!!!!!</div>
+    </template>
+
+    <template id="hao">
+        <div>hao le ma!!!!!!!</div>
+    </template>
+
+    <template id="message_board" name="message_board">
+      <t t-call="website.layout">
+          <t t-set="additional_title">Shop Message Board</t>
+          <div>this is test!!!!!!!!!!!!</div>
+      </t>
+    </template>
+</data>
+</openerp>
